@@ -79,51 +79,53 @@ Ensure you have Python 3.8+ installed. It is recommended to use a virtual enviro
 
 ```bash
 pip install -r requirements.txt
-Repository Structure
-text
+```
+
+### Repository Structure
+
+```text
 .
 ├── A6_GNN_Barbod_Alamian.ipynb   # Main Jupyter Notebook
-├── A6_NN_Barbod_Alamian.pdf      # Detailed Project Report (Persian)
-├── A6_GNN.pdf                    # Assignment Guidelines (English)
 ├── distances_la_2012.csv         # Distance matrix between sensors
 ├── graph_sensor_ids.txt          # List of sensor IDs
 ├── adj_mx.pkl                    # Precomputed adjacency matrix
 ├── metr-la.h5                    # Traffic speed dataset
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
-Installation & Execution
-Clone the repository:
+```
 
-bash
-git clone https://github.com/BarbodAlamian/GNN-Traffic-Prediction-METR-LA.git
-cd GNN-Traffic-Prediction-METR-LA
-Install dependencies:
+### Installation & Execution
 
-bash
-pip install -r requirements.txt
-Run the Notebook:
-Open A6_GNN_Barbod_Alamian.ipynb in Jupyter Lab, VS Code, or your preferred environment and execute the cells sequentially.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BarbodAlamian/GNN-Traffic-Prediction-METR-LA.git
+   cd GNN-Traffic-Prediction-METR-LA
+   ```
 
-Dependencies
-Python 3.8+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-PyTorch
+3. **Run the Notebook:**
+   Open `A6_GNN_Barbod_Alamian.ipynb` in Jupyter Lab, VS Code, or your preferred environment and execute the cells sequentially.
 
-PyTorch Geometric
+### Dependencies
 
-NumPy
+- Python 3.8+
+- PyTorch
+- PyTorch Geometric
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- h5py
 
-Pandas
+## Author
 
-Matplotlib
+**Barbod Alamian**  
+[GitHub Profile](https://github.com/BarbodAlamian)
 
-Scikit-learn
+## License
 
-h5py
-
-Author
-Barbod Alamian
-GitHub Profile
-
-License
 This project is developed for educational and research purposes as part of a university assignment. Feel free to use it for learning and experimentation.
